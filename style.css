@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  color:#444;
+  background-color: whitesmoke;
+}
+.container{
+  width:80%;
+  margin:0 auto;
+}
+.logo h1{
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight:600;
+  text-align: center;
+  margin:32px 0 28px 0;
+  letter-spacing: 5px;
+  word-spacing: 8px;
+}
+/* navber links */
+.navber ul{
+  display: flex;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.navber ul li{
+  list-style-type: none;
+  margin-right: 32px;
+}
+.navber ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.dhaka{
+  background-image: url(./images/md-sameul-9UqzeQYkCgg-unsplash.jpg);
+}
+.place-bg-container{
+  width:100%;
+  height:100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.place-bg-container h1{
+  color:whitesmoke;
+  text-transform: uppercase;
+  padding:25px 0 0 50%;
+  letter-spacing: 5px;
+  font-size: 32px;
+}
+.place-details{
+  text-align: center;
+  margin: 75px;
+}
+.place-details h1{
+  text-transform: capitalize;
+  font-size: 28px;
+  color: rgb(127, 136, 255);
+  text-align: center;
+}
+.place-details p{
+  text-align:justify;
+  margin-top:20px;
+  padding:10px;
+}
+.place-details a{
+  text-decoration:none;
+  background-color:rgb(240, 170, 181);
+  padding:8px 25px;
+  border-radius: 5px;
+  margin-top:1.5rem;
+  display: inline-block;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+.place-details a:hover{
+  background-color:hotpink;
+  color: white;
+}
+.place-details a:active{
+  outline:3px solid rgba(240, 188, 197, 0.849);
+}
+
+/* tangail start */
+.tangail{
+  background-image:url(./images/muhammad-rubell-_E5V1N-4iss-unsplash.jpg);
+}
+/* modhupur start */
+.modhupur{
+  background-image: url(./images/nafiul-hasan-veIrXDU9WQI-unsplash.jpg);
+}
+/* mymensing start */
+.mymensing{
+  background-image: url(./images/rakib-hosain-wfLLfLBd7Zo-unsplash.jpg);
+}
+/* jessore start */
+.jessore{
+  background-image: url(./images/rashedul-islam-hridoy-x_LMlT0qp-w-unsplash.jpg);
+}
